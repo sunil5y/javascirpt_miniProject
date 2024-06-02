@@ -109,9 +109,9 @@ function transformToUserObject(users) {
 }
 
 const usersArray = [
-  { id: 1, name: 'Alice', age: 25 },
-  { id: 2, name: 'Bob', age: 30 },
-  { id: 3, name: 'Charlie', age: 35 }
+  { id: 1, name: 'Ajay', age: 25 },
+  { id: 2, name: 'Ram', age: 30 },
+  { id: 3, name: 'Mohan', age: 35 }
 ];
 console.log(transformToUserObject(usersArray));
 
@@ -156,7 +156,7 @@ class Student extends Person {
       return `${this.name} is studying.`;
   }
 }
-const student = new Student('Bob', 20, 'A');
+const student = new Student('Sunil', 20, 'A');
 console.log(student.describe()); 
 console.log(student.study()); 
 
