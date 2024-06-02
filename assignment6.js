@@ -129,7 +129,7 @@ class Person {
       return `Name: ${this.name}, Age: ${this.age}`;
   }
 }
-const person = new Person('Alice', 25);
+const person = new Person('Sunil', 25);
 console.log(person.describe()); 
 
 // 11. Inheritance
@@ -168,9 +168,9 @@ function fetchData() {
       setTimeout(() => {
           if (Math.random() > 0.5) {
               const users = [
-                  { id: 1, name: 'Alice', age: 25 },
-                  { id: 2, name: 'Bob', age: 30 },
-                  { id: 3, name: 'Charlie', age: 35 }
+                  { id: 1, name: 'Sunil', age: 25 },
+                  { id: 2, name: 'Mandip', age: 30 },
+                  { id: 3, name: 'Prashun', age: 35 }
               ];
               resolve(users);
           } else {
@@ -192,9 +192,9 @@ async function fetchData() {
           setTimeout(() => {
               if (Math.random() > 0.5) {
                   const users = [
-                      { id: 1, name: 'Alice', age: 25 },
-                      { id: 2, name: 'Bob', age: 30 },
-                      { id: 3, name: 'Charlie', age: 35 }
+                      { id: 1, name: 'Kotafactory', age: 25 },
+                      { id: 2, name: 'susan', age: 30 },
+                      { id: 3, name: 'Sunil', age: 35 }
                   ];
                   resolve(users);
               } else {
