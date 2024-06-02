@@ -224,8 +224,8 @@ function getUniqueHobbies(users) {
   }, []);
 }
 const users = [
-  { name: 'Alice', hobbies: ['reading', 'biking', 'cooking'] },
-  { name: 'Bob', hobbies: ['cooking', 'hiking'] },
-  { name: 'Charlie', hobbies: ['biking', 'dancing'] }
+  { name: 'Sunil', hobbies: ['reading', 'biking', 'cooking'] },
+  { name: 'Mandip', hobbies: ['cooking', 'hiking'] },
+  { name: 'Susan', hobbies: ['biking', 'dancing'] }
 ];
 console.log(getUniqueHobbies(users)); 
